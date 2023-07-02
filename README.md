@@ -3,7 +3,7 @@ RoBERTa based GitHub Actions recommendation model.
 
 To train our model, run the run.py file with the following commands:
 
-'''
+```
 python run.py \
     --output_dir=./saved_models/CIGAR_t50\
     --model_type=roberta \
@@ -21,4 +21,4 @@ python run.py \
     --max_grad_norm 1.0 \
     --evaluate_during_training \
     --seed 123456 2>&1| tee train_t50.log
-'''
+```
