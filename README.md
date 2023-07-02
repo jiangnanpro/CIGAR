@@ -1,4 +1,5 @@
-# CIGAR: Contrastive learning for GitHub Action Recommendation
+# CIGAR: 
+## Contrastive learning for GitHub Action Recommendation
 RoBERTa based GitHub Actions recommendation model.
 
 To train our model, run the run.py file with the following commands:
