@@ -1,8 +1,8 @@
 # CIGAR: Contrastive learning for GHA Recommendation
 
-This repository contains the code and the dataset we used to train and evaluate our approach CIGAR.
+This repository contains the code and the dataset of our paper.
 
-- CIGAR/model_notebooks contains the source code of our model
+- CIGAR contains the source code of our model
 - CIGAR_variants contains the variants of our model (i.e. RoBERTa w/ or w/o finetune)
 - data folder contains the dataset we built for our model, along with the notebook for building the dataset.
 - plots folder contains some plots for data visualization.
