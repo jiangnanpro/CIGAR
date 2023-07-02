@@ -11,7 +11,7 @@ To train and save our model, run the run.py file with the following commands:
 
 ```
 python run.py \
-    --output_dir=./saved_models/CIGAR_t50\
+    --output_dir=./saved_models/CIGAR_t50 \
     --model_type=roberta \
     --tokenizer_name=roberta-base \
     --model_name_or_path=roberta-base \
