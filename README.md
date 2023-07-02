@@ -1,8 +1,13 @@
-# CIGAR: 
-## Contrastive learning for GitHub Action Recommendation
-RoBERTa based GitHub Actions recommendation model.
+# CIGAR: Contrastive learning for GHA Recommendation
 
-To train our model, run the run.py file with the following commands:
+This repository contains the code and the dataset we used to train and evaluate our approach CIGAR.
+
+- CIGAR/model_notebooks contains the source code of our model
+- CIGAR_variants contains the variants of our model (i.e. RoBERTa w/ or w/o finetune)
+- data folder contains the dataset we built for our model, along with the notebook for building the dataset.
+- plots folder contains some plots for data visualization.
+
+To train and save our model, run the run.py file with the following commands:
 
 ```
 python run.py \
@@ -11,9 +16,9 @@ python run.py \
     --tokenizer_name=roberta-base \
     --model_name_or_path=roberta-base \
     --do_train \
-    --train_data_file=../data/action_features_train.csv.gz  \
-    --eval_data_file=../data/action_valid.csv.gz  \
-    --test_data_file=../data/action_test.csv.gz  \
+    --train_data_file=../../data/train.csv.gz  \
+    --eval_data_file=../../data/valid.csv.gz  \
+    --test_data_file=../../data/test.csv.gz  \
     --epoch 10 \
     --block_size 128 \
     --train_batch_size 16 \
