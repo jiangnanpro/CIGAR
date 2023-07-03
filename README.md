@@ -2,10 +2,10 @@
 
 This repository contains the code and the dataset of our paper.
 
-- CIGAR contains the source code of our model
-- CIGAR_variants contains the variants of our model (i.e. RoBERTa w/ or w/o finetune)
-- data folder contains the dataset we built for our model, along with the notebook for building the dataset.
-- plots folder contains some plots for data visualization.
+- **CIGAR** contains the source code of our model
+- **CIGAR_variants** contains the variants of our model (i.e. RoBERTa w/ or w/o finetune)
+- **data** folder contains the dataset we built for our model, along with the notebook for building the dataset.
+- **plots** folder contains plots for data visualization.
 
 To train and save our model, run the run.py file with the following commands:
 
