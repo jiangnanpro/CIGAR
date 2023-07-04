@@ -1,17 +1,17 @@
 # CIGAR: Contrastive learning for GHA Recommendation
 
-This repository contains the code and the dataset we used to train and evaluate our approach CIGAR.
+This repository contains the code and the dataset of our paper.
 
-- CIGAR/model_notebooks contains the source code of our model
-- CIGAR_variants contains the variants of our model (i.e. RoBERTa w/ or w/o finetune)
-- data folder contains the dataset we built for our model, along with the notebook for building the dataset.
-- plots folder contains some plots for data visualization.
+- **CIGAR** contains the source code of our model
+- **CIGAR_variants** contains the variants of our model (i.e. RoBERTa w/ or w/o finetune)
+- **data** folder contains the dataset we built for our model, along with the notebook for building the dataset.
+- **plots** folder contains plots for data visualization.
 
 To train and save our model, run the run.py file with the following commands:
 
 ```
 python run.py \
-    --output_dir=./saved_models/CIGAR_t50\
+    --output_dir=./saved_models/CIGAR_t50 \
     --model_type=roberta \
     --tokenizer_name=roberta-base \
     --model_name_or_path=roberta-base \
