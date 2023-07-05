@@ -32,8 +32,8 @@ python run.py \
 
 - **results** folder contains the predictions provided by our model with various $\tau$ selected. The structure of the results is as follows:
   
-| name        | actual_action | suggested_actions |
-| ----------- | ----------- | ------------------ |
-| upload source artifact     | 0      | \[0, 22, 13, 51, 88\] |
-| ... | ... | ... |
-| select latest xcode   | 99        | \[99, 36, 37, 76, 14\] |
+    | name        | actual_action | suggested_actions |
+    | ----------- | ----------- | ------------------ |
+    | upload source artifact     | 0      | \[0, 22, 13, 51, 88\] |
+    | ... | ... | ... |
+    | select latest xcode   | 99        | \[99, 36, 37, 76, 14\] |
