@@ -30,7 +30,8 @@ python run.py \
     --seed 123456 2>&1| tee train_t50.log
 ```
 
-- **results** folder contains the suggestions provided by our model with various $\tau$ selected. The structure of the results is as follows: 
+- **results** folder contains the suggestions provided by our model with various $\tau$ selected. The structure of the results is as follows:
+  
 | name        | actual_action | suggested_actions |
 | ----------- | ----------- | ------------------ |
 | upload source artifact     | 0      | \[0, 22, 13, 51, 88\] |
