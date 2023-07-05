@@ -4,9 +4,9 @@ This repository contains the code and the dataset of our paper.
 
 - **CIGAR** contains the source code of our model
 - **CIGAR_variants** contains the variants of our model (i.e. RoBERTa w/ or w/o finetune)
-- **data** folder contains the dataset we built for our model, along with the notebook for building the dataset.
+- **data** folder contains our dataset, along with the notebook for building the dataset.
 - **plots** folder contains plots for data visualization.
-- **results** folder contains the suggestions provided by our model with various $\tau$ selected.
+
 
 To train and save our model, run the run.py file with the following commands:
 
@@ -29,3 +29,10 @@ python run.py \
     --evaluate_during_training \
     --seed 123456 2>&1| tee train_t50.log
 ```
+
+- **results** folder contains the suggestions provided by our model with various $\tau$ selected. The structure of the results is as follows: 
+| name        | actual_action | suggested_actions |
+| ----------- | ----------- | ------------------ |
+| upload source artifact     | 0      | \[0, 22, 13, 51, 88\] |
+| ... | ... | ... |
+| select latest xcode   | 99        | \[99, 36, 37, 76, 14\] |
